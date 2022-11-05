@@ -16,4 +16,10 @@ ReactDOM.render(element,containerElement);
 # ReactDOM.render() takes two arguments:
 * element: The element that needs to be rendered in the DOM
 * containerElement: Where to render in the dom.
+### React.createElement(
+  type,
+  [props],
+  [...children]
+)
 
+# Functional component don't merge with the existing state but class component merge with the existing component. 
